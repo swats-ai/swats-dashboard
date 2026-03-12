@@ -1,0 +1,34 @@
+[
+  {
+    "id": "agua-santa-maria",
+    "name": "Francisco Manrique",
+    "business": "Agua Santa Maria",
+    "channel": "telegram",
+    "username": "@fcomanrique",
+    "chatId": "6289236656",
+    "date": "2026-03-12",
+    "url": "https://aguasantamaria.swats.ai",
+    "status": "live",
+    "referralCode": "AGUASM",
+    "intake": "Empresa de agua purificada en Monterrey y zona metropolitana. Vende y distribuye agua embotellada (355ml, 1L, 1.5L), garrafones de 20L, bebederos de agua para oficinas (instalación gratuita en oficinas, $500 en hogar), y purificadores de agua para cocina/hogar. Clientes objetivo: hogares y oficinas, con preferencia por clientes empresariales con contratos semanales. Contacto: aguasantamaria@gmail.com, 818 861 0031.",
+    "sections": ["Hero", "About", "Servicios/Productos", "Zonas de servicio", "Contacto", "CTA"],
+    "stockPhotos": false,
+    "assets": ["logo.jpg", "bebedero1.jpg", "bebedero2.jpg", "garrafon.jpg", "purificador.jpg"]
+  },
+  {
+    "id": "club-oficial-viviendo-deprisa-mty",
+    "name": "Evelyn Fonseca",
+    "business": "Club Oficial Viviendo Deprisa MTY",
+    "channel": "telegram",
+    "username": "Evelyn",
+    "chatId": "7149955695",
+    "date": "2026-03-12",
+    "url": "https://cluboficialviviendodeprisamty.swats.ai",
+    "status": "live",
+    "referralCode": "VIVIENDO-MTY",
+    "intake": "Club de fans del cantante Alejandro Sanz. Publican noticias sobre sus próximos conciertos, canciones y novedades de su carrera. Dirigido a fans hispanohablantes de todo el mundo, con base en Monterrey, NL, México y socios por varios estados de México. Redes sociales: Facebook (share/1aaQpAC7X1), TikTok @viviendodeprisamty, X @ViviendPrisaMty. Contacto: viviendodeprisamty@gmail.com.",
+    "sections": ["Hero", "About", "Galería", "Redes Sociales", "Contacto"],
+    "stockPhotos": true,
+    "assets": ["logo.jpg", "concert-hero.jpg", "concert-crowd.jpg", "guitar-stage.jpg", "fans-lights.jpg", "music-vibe.jpg"]
+  }
+]
