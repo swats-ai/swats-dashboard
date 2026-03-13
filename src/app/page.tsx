@@ -77,6 +77,7 @@ export default function Dashboard() {
                   <th className="px-5 py-3 font-medium">Channel</th>
                   <th className="px-5 py-3 font-medium">Date</th>
                   <th className="px-5 py-3 font-medium">Status</th>
+                  <th className="px-5 py-3 font-medium">Referral</th>
                   <th className="px-5 py-3 font-medium">URL</th>
                   <th className="px-5 py-3 font-medium">Detail</th>
                 </tr>
@@ -132,6 +133,9 @@ function IntakeRow({ intake }: { intake: Intake }) {
         <StatusBadge status={intake.status} />
       </td>
       <td className="px-5 py-3.5">
+        <span className="text-xs font-mono text-orange-300 bg-orange-500/10 px-2 py-0.5 rounded">{intake.referralCode}</span>
+      </td>
+      <td className="px-5 py-3.5">
         {intake.url ? (
           <a href={intake.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-xs font-mono truncate block max-w-[200px]">
             {intake.url.replace('https://', '')}
@@ -164,6 +168,9 @@ function MobileIntakeCard({ intake }: { intake: Intake }) {
           {intake.url.replace('https://', '')}
         </a>
       )}
+      <div className="flex items-center gap-2 text-xs mt-1">
+        <span className="font-mono text-orange-300 bg-orange-500/10 px-2 py-0.5 rounded">{intake.referralCode}</span>
+      </div>
       <a href={`/intake/${intake.id}`} className="text-orange-400 text-xs font-medium inline-block mt-1">
         View Details →
       </a>
